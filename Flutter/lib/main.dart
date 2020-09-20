@@ -1,3 +1,4 @@
+import 'ui/efficient_list_example.dart';
 import 'package:flutter/material.dart';
 
 //import 'ui/my_app.dart';
@@ -19,7 +20,7 @@ void main() {
             style: TextStyle(color: Colors.white),
           ),
         ),
-        body: ListExamples(),
+        body: EfficientListExample(),
       ),
     ),
   );
